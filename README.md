@@ -9,7 +9,7 @@ npm -v
 ### Download the repo and install its NPM modules.
 ```
 git clone https://github.com/abraidotti/react-starter
-cd react starter
+cd react-starter
 npm install
 ```
 ## CONFIGURATION
