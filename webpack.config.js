@@ -24,6 +24,7 @@ module.exports = {
     ]
   },
   devServer: {
+    stats: 'minimal',
     port: 1337
   },
   plugins: [

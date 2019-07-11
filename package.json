@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "",
-    "start": "webpack-dev-server --open --hot --mode development",
+    "start": "webpack-dev-server --open --hot --quiet --mode development",
     "build": "webpack --mode production"
   },
   "repository": {
@@ -35,5 +35,8 @@
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.5",
     "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }
